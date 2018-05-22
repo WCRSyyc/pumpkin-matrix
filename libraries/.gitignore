@@ -1,0 +1,4 @@
+// Do not want to include any locally installed libraries in the repository
+*
+!.gitignore
+!readme.txt
