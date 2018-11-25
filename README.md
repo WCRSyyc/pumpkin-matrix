@@ -10,3 +10,5 @@ Not included in this repository, but the LedControl library (by Eberhadr Fahle) 
   * A sketch to display a simple pattern, on a single LED matrix.  Use as a simple test that the LED matrix, MAX7219 chip, and Arduino wiring has been done correctly.
 * masinf
   * A sketch to demonstrate using a masks to display eyeball and pupil animations
+* scroll_explore
+  * A sketch to demonstrate various ways to scroll content on an LED matrix
