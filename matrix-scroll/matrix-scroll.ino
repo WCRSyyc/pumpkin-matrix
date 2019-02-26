@@ -1,5 +1,5 @@
 /* Matrix Scroll
- * 
+ *
  * Sample program to scroll letters across a single LED matrix
  */
 
@@ -72,7 +72,7 @@ unsigned const int lettersInWord = sizeof(letters) / sizeof(letters[0]);
 unsigned int displayMem[rowsInLetter];
 
 void setup() {
-  // Setup to be able to access the LED Matrix controller(s)
+  // Setup to be able to access the LED Matrix controller
   lc.shutdown(addr, false);  // Wake up display(s)
   lc.setIntensity(addr, 8);  // Set intensity levels
   lc.clearDisplay(addr);     // Clear LED Matrix display
