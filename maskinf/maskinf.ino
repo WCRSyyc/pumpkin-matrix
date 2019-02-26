@@ -56,15 +56,15 @@ const byte roundEye[] = {
 
 void setup()
 {
-  lc.shutdown(addr,false);  // Wake up displays
-  lc.setIntensity(addr,8);  // Set intensity levels
+  lc.shutdown(addr, false);  // Wake up displays
+  lc.setIntensity(addr, 8);  // Set intensity levels
   lc.clearDisplay(addr);  // Clear Displays
 }
 
 void loop() {
-  displayAt0(0,0);
+  displayAt0(0, 0);
   delay(1000);
-  displayAt0(8,8);
+  displayAt0(8, 8);
   delay(100000);
 }
 
