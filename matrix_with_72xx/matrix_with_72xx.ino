@@ -1,4 +1,4 @@
-/** (LED) matrix with 72xx shift registister
+/** (LED) matrix with 72xx shift register
 
  Demonstration of using an array of structs to control animation frame images
  and display timing for 2 8 x 8 LED matrix.
@@ -82,7 +82,7 @@ void loop() {
 /**
  Show a frame (image) that controls every LED of an 8 by 8 LED matrix
 
- @oaram lc LedControl instance
+ @param lc LedControl instance
  @param addr address of the 72xx chip
  @param frame array of 8 bit patterns, one for each row
  */

@@ -13,7 +13,7 @@ Not included in this repository, but the LedControl library (by Eberhadr Fahle) 
 * scroll_explore
   * A sketch to demonstrate various ways to scroll content on an LED matrix
 * matrix_with_72xx
-  * demonstrate frame based animation, using a struct to control sequence and timing for 2 LED Matricies
+  * demonstrate frame based animation, using a struct to control sequence and timing for 2 LED Matrices
 * matrix-diagonal-test
   * wiring check. Display a blinking diagonal line on a single LED matrix.
 * matrix-scroll

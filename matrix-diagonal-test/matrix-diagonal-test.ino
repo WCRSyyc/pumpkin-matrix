@@ -13,7 +13,7 @@
 
 #include <LedControl.h>
 
-// Define constants requried by LedControl.h
+// Define constants required by LedControl.h
 
 /* Note the all caps used to define these constants.  This is a coding convention
  * used for unchanging constants, as opposed to a variable.

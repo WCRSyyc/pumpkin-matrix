@@ -1,5 +1,5 @@
 /* Matrix Scroll
- * 
+ *
  * Explore simple ways to scroll an LED matrix display left to right.  Initial 
  * use is intend to scroll a few character, to display a name.  It should work
  * find with any 8 x 8 image data.
@@ -63,7 +63,7 @@ const byte letterSP[] = {
   B00000000,
   B00000001,
 };
-// put (references to) the letters into an array to make steppnig through them easier
+// put (references to) the letters into an array to make stepping through them easier
 const byte* const letters[] = {letterP, letterH, letterI, letterL, letterSP};
 unsigned const int rowsInLetter = sizeof(letterP) / sizeof(letterP[0]);
 unsigned const int lettersInWord = sizeof(letters) / sizeof(letters[0]);
@@ -95,7 +95,7 @@ void loop() {
 //  testShowLetter();
 //  testShowWord();
   scrollTest1();
-  delay(60000);  // remove for continious rotation
+  delay(60000);  // remove for continuous rotation
 }
 
 void scrollTest1() {

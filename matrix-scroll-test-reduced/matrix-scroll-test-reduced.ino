@@ -1,5 +1,5 @@
 /* Matrix Scroll
- * 
+ *
  * Explore simple ways to scroll an LED matrix display left to right.  Initial 
  * use is intend to scroll a few character, to display a name.  It should work
  * fine with any 8 x 8 image data.
