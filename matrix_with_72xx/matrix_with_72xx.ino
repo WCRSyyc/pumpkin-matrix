@@ -1,4 +1,4 @@
-/** (LED) matrix with 72xx shift register
+/** (LED) matrix with 72xx display controller
 
  Demonstration of using an array of structs to control animation frame images
  and display timing for 2 8 x 8 LED matrix.
@@ -7,7 +7,7 @@
 #include <LedControl.h>
 
 // Parameters used to setup LedControl library to match physical connections
-const unsigned int LC_DATA_IN = 12;
+const unsigned int LC_MOSI = 12;
 const unsigned int LC_CLK = 11;
 const unsigned int LC_LOAD = 10;
 const unsigned int LC_NUM_DEVICES = 2;
@@ -16,7 +16,7 @@ const int RIGHT_ADDR = 1;
 const int MAT_BRIGHTNESS = 7; // 0 .. 15 = min .. max
 
 // Setup library object instance for the configured hardware
-LedControl lc1 = LedControl(LC_DATA_IN, LC_CLK, LC_LOAD, LC_NUM_DEVICES);
+LedControl lc1 = LedControl(LC_MOSI, LC_CLK, LC_LOAD, LC_NUM_DEVICES);
 // Each frame«x» array is a single image that can be display on a single matrix
 byte frame0[] = {B11111111, B10000001, B10000001, B10000001, B10000001, B10000001, B10000001, B11111111};
 byte frame1[] = {B00000000, B01111110, B01000010, B01000010, B01000010, B01000010, B01111110, B00000000};
